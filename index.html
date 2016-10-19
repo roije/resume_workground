@@ -4,20 +4,35 @@
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,‌​100italic,300,300ita‌​lic,400italic,500,50‌​0italic,700,700itali‌​c,900italic,900' rel='stylesheet' type='text/css'>
-        
+        <script src="dist/js/smooth-scroll.js"></script>
+        <script>
+            smoothScroll.init();
+        </script>
     </head>
     <body>
+        <div class="nav">
+        <ul>
+            <li class="home"><a href="#">Home</a></li>
+            <li class="tutorials"><a href="#">Tutorials</a></li>
+            <li class="about"><a data-scroll href="#profile-img2">About</a></li>
+            <li class="news"><a href="#">Newsletter</a></li>
+            <li class="contact"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <!--#endregion-->
+
+
         <div class="container">
             <!-- Main page area -->
-            <div class="col-md-12 main-page center">
-                    <p>Billede</p>
-                    <p>Nogen tekst - Nogen tekst - nogen tekst</p>
-            </div>
+                <div class="col-centered col-md-12 main-content">
+                    <img src="mepixl.jpg" id="profile-img">
+                    <p> - Hej jeg hedder Rói -</p>
+                </div>
             <!-- CV area -->
             <header class="col-md-12">
                 <div class="row">
                 <div class="image-area col-md-3 col-xs-6">
-                    <img id="profile-img" src="mepixl.jpg">
+                    <img id="profile-img2" src="mepixl.jpg">
                 </div>
                 <div class="title col-md-6 col-xs-6">
                     <h3 class="small-header"><span>NAVN</span></h3>
@@ -175,6 +190,6 @@ Quod suavitate mei ex, duo ea porro adipiscing dissentiet, ut suavitate reprehen
                     </div>
                 </section>
             </article>
-        </div>
+        </div>        
     </body>
 </html>

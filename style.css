@@ -3,19 +3,79 @@ body{
     background-color: #f1f1f1;
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 100%;
-    margin: 0;
+   
 }
 
-.main-page{
-    min-height: 100%;
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
 }
 
-.center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
+.main-content{
+    height:100vh;
+    padding-top: 250px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -38,6 +98,14 @@ article{
 }
 
 #profile-img{
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#profile-img2{
     border-radius: 50%;
     width: 170px;
     height: 170px;
