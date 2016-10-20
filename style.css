@@ -38,7 +38,7 @@ article{
 .small-header{
     padding: 5px;
     background-color: #27ae60;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     color: white;
     font-weight: lighter;
     margin-top: 10px;
@@ -95,8 +95,6 @@ article{
   overflow: hidden;
   border-radius: 5px;
 }
-
-
 
 .progressBarValue {
   height: 1.66em;
