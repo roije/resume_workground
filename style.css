@@ -165,12 +165,12 @@ article{
 }
 
 #portfolio{
-    height: 100vh;
     padding-top: 70px;
     background-color: #34495E;
     padding-left: 50px;
     padding-right: 50px;
 }
+
 
 .description{
     color: white;
