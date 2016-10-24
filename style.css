@@ -172,6 +172,10 @@ article{
     padding-bottom: 50px;
 }
 
+.description a {
+    color: #27ae60;
+}
+
 
 .description{
     color: white;
