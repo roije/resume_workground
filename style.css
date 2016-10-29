@@ -44,7 +44,9 @@ ul.topnav li a {
   and (-webkit-min-device-pixel-ratio: 2) {
       .topnav{
           height: 100px;
-          color: pink;
+      }
+      .ul.topnav li a{
+          height: 100px;
       }
 }
 
